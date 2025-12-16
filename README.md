@@ -71,7 +71,7 @@
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/sceneforge.git
+git clone https://github.com/justinDevel/sceneforge.git
 cd sceneforge
 ```
 
