@@ -225,7 +225,7 @@ export const JsonEditor = () => {
         </div>
       </div>
 
-      <Tabs defaultValue="visual" className="flex-1 flex flex-col overflow-hidden">
+      <Tabs defaultValue="visual" className="flex-1 flex flex-col">
         <TabsList className="grid w-full grid-cols-2 bg-muted/30 flex-shrink-0">
           <TabsTrigger value="visual" className="gap-2 data-[state=active]:bg-primary/20">
             <Sliders className="w-4 h-4" />
