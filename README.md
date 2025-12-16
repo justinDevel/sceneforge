@@ -90,9 +90,8 @@ pip install -r requirements.txt
 # Configure environment
 cp .env.example .env
 # Edit .env with your API keys:
-# OPENAI_API_KEY=your_openai_key
+# GOOGLE_API_KEY=your_gemini_key
 # BRIA_API_KEY=your_bria_key
-# BRIA_API_URL=https://engine.prod.bria-api.com/v1
 
 # Initialize database
 python -c "from app.models.database import init_db; init_db()"
