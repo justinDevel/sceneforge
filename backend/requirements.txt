@@ -1,0 +1,30 @@
+# Core Framework
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Database
+sqlalchemy>=2.0.23
+
+# AI & ML - Google Gemini for Professional Agents
+langchain>=0.1.0
+langchain-google-genai>=1.0.0
+google-generativeai>=0.3.0
+httpx>=0.25.2
+
+# Image Processing
+Pillow==10.1.0
+
+# Async & File handling
+aiofiles==23.2.1
+
+# Monitoring & Logging
+structlog==23.2.0
+
+# Security & Auth
+python-multipart==0.0.6
+
+# Development & Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
